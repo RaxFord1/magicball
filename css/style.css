@@ -2,16 +2,21 @@ html, body {
     height:100%;
     background-color: white;
     overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 .circle {
     position:relative;
-    width:33%;
-    padding-bottom:33%;
+    width:28%;
+    padding-bottom:28%;
+    box-shadow: 0px 0px 2vw 6vw black;
     background:gold;
     border-radius:50%;
     vertical-align: middle;
     text-align:center;
-    margin:0 auto;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .shaking {
     animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
