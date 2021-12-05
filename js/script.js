@@ -1,5 +1,5 @@
 function Generate(){
-    document.body.innerHTML = "<div class='circle' id ='circle' onclick='Question();'><div class='answer' id='answer'>Введіть своє питання!</div></div>"
+    document.body.innerHTML = "<div id='pattern'>&nbsp;</div><header><span style='color: white; '>RaxFord</span>        <div class='href'><a href='https://raxford1.github.io/web_individual/'>Home</a>  </div>    </header><hr><div class='circle' id ='circle' onclick='Question();'><div class='answer' id='answer'>Введіть своє питання!</div></div>"
 }
 Generate();
 function DeleteShaking(){
